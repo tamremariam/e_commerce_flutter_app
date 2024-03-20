@@ -8,11 +8,11 @@ version: 1.0.0+1
 
 environment:
   sdk: '>=3.3.0-279.0.dev <4.0.0'
-
+# -------------------   package --------
 dependencies:
   flutter:
     sdk: flutter
-
+# utility packages
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.0
   get: ^4.6.6
@@ -22,6 +22,7 @@ dependencies:
   firebase_storage: ^11.6.9
   get_storage: ^2.1.1
   logger: ^2.1.0
+  flutter_native_splash: ^2.4.0
 
 dev_dependencies:
   flutter_test:
@@ -39,7 +40,9 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/images/on_boarding_images/
     - assets/logos/
+    - assets/images/on_boarding_images/
 
 
   fonts:
